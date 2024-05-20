@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+     ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 50px; /* Afasta a caixa das bordas da página */
+  padding: 20px; /* Espaço interno da caixa */
+  border: 1px solid #000; /* Apenas para visualização */         
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+     }
+
+     li a:hover {
+  background-color: #CB1D64;
+  color: white;
+                }  
+body{background-color:#FDCCE0;
+color: #070707;}               
+h1{color: #CB1D64;} 
+table{margin: auto; border-collapse: collapse;} /* Centraliza a tabela na página Remove os espaços entre as bordas das células */
+    </style>
+</head>
+<body>
+    <h1>CV Online - Ana Beatriz Cunha</h1>
+    <ul>
+        <li><a href="index.html">Sobre mim</a></li>
+        <li><a href="Formação.html">Formação e Idiomas</a></li>
+        <li><a href="Portfolio.html">Portfólio</a></li>
+        <li><a href="Contato.html">Contato</a></li>
+    </ul>
+
+    <h1 style="color: #CB1D64; text-align: center;">Entre em contato comigo</h1>
+    
+ <table> <!-- Início da tabela -->
+    <tr>
+        <th><label for="nome">Nome:</label></th> <!-- Cabeçalho da coluna Nome com label -->
+        <td><input type="text" name="nome" id="nome"></td> <!-- Campo de texto para nome -->
+        </tr>
+        <tr>
+        <th><label for="email">E-mail:</label></th> <!-- Cabeçalho da coluna E-mail com label -->
+        <td><input type="email" name="email" id="email"></td> <!-- Campo de texto para e-mail -->
+        </tr>
+        <tr>
+        <th><label for="msg">Digite sua Mensagem:</label></th> <!-- Cabeçalho da coluna Mensagem com label -->
+        <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>  <!-- Área de texto para mensagem -->
+        </tr>
+        <tr>
+        <td></td>
+        <td> <button>Enviar</button></td> <!-- Botão de envio -->
+        </tr>
+        </table>
+        </form>
+</body>
+</html>
